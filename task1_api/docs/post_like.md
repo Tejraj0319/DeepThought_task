@@ -6,21 +6,13 @@ This API is used to like a forum post.
 When a user likes a post, their user id is saved for that post.
 A user is allowed to like a post only one time.
 
-<<<<<<< HEAD
 ----------------------------------------------------***---------------------------------------------------
-=======
-----------------------------------------------------------------------------------------------------------
->>>>>>> b8049391bdc70038127970741f784be4ac483dea
 
 2) API Endpoint
 
 POST
 /api/posts/:postId/like
-<<<<<<< HEAD
 ----------------------------------------------------***---------------------------------------------------
-=======
-----------------------------------------------------------------------------------------------------------
->>>>>>> b8049391bdc70038127970741f784be4ac483dea
 
 
 3) Request Parameters
@@ -29,12 +21,8 @@ POST
 Type: String
 Description: This is the id of the post that needs to be liked
 You will need to pass it in URL 
-e.g: http://localhost:3000/api/posts/695b81e4bc28ec1b5c6c28e8/like
-<<<<<<< HEAD
+e.g: /api/posts/695b81e4bc28ec1b5c6c28e8/like
 ----------------------------------------------------***---------------------------------------------------
-=======
-----------------------------------------------------------------------------------------------------------
->>>>>>> b8049391bdc70038127970741f784be4ac483dea
 
 
 4) Request Body
@@ -85,7 +73,3 @@ Status code: 400
 
 Status code: 500
 It will console the error!
-<<<<<<< HEAD
-=======
-
->>>>>>> b8049391bdc70038127970741f784be4ac483dea
