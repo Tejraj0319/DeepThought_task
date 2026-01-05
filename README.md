@@ -5,7 +5,7 @@ The task was divided into two parts.
 The first task was to create an API based on given documentation.
 The second task was to write API documentation based on a given feature.
 
-Since no actual documentation or feature was provided, I made reasonable assumptions and implemented forum related features similar to NodeBB.
+Since no actual documentation or feature was provided, I made assumptions and implemented forum related features similar to NodeBB.
 
 ----------------------------------------------------------------------------------------------------------
 
@@ -25,7 +25,7 @@ First, I wrote the API documentation and then implemented the API using Node.js 
 
 Feature implemented
 
-->  Like or up-vote a forum post
+->  Like forum post
 ->  One user can like a post only once
 
 Files related to Task 1
@@ -38,12 +38,10 @@ Files related to Task 1
 4) Task 2 API Documentation
 
 For Task 2, I created documentation for a Report Post feature.
-This API allows users to report a post with a reason such as spam or abuse.
-Only documentation was required, so the API is not implemented.
 
 Files related to Task 2
 
-->  task2-documentation/post-report-api.md
+->  task2-documentation/post_report.md
 
 ----------------------------------------------------------------------------------------------------------
 
@@ -55,11 +53,3 @@ Files related to Task 2
 -> Start the server using npm run dev
 
 The server will start on port 3000.
-
-----------------------------------------------------------------------------------------------------------
-
-6) Assumptions Made
-
--> Authentication is not implemented
--> User id is passed directly in the request body
--> The project is created for task demonstration purpose
