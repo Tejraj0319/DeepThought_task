@@ -12,6 +12,7 @@ A user is allowed to like a post only one time.
 
 POST
 /api/posts/:postId/like
+
 ----------------------------------------------------***---------------------------------------------------
 
 
@@ -22,6 +23,7 @@ Type: String
 Description: This is the id of the post that needs to be liked
 You will need to pass it in URL 
 e.g: /api/posts/695b81e4bc28ec1b5c6c28e8/like
+
 ----------------------------------------------------***---------------------------------------------------
 
 
@@ -34,6 +36,7 @@ Example:
 {
   "userId": "RajeshPatil123"
 }           
+
 ----------------------------------------------------***---------------------------------------------------
 
 5) Success Response
@@ -47,6 +50,7 @@ Example response:
   "message": "Post liked successfully",
   "totalLikes": 5
 }
+
 ----------------------------------------------------***---------------------------------------------------
 
 6) Error Responses
