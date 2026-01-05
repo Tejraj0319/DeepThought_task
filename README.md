@@ -52,4 +52,8 @@ Files related to Task 2
 -> Create a .env file and add MongoDB connection string
 -> Start the server using npm run dev
 
+<<<<<<< HEAD
 The server will start on port 3000.
+=======
+The server will start on port 3000.
+>>>>>>> b8049391bdc70038127970741f784be4ac483dea
